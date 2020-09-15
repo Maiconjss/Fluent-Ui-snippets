@@ -1,0 +1,56 @@
+{
+  "TextField": {
+    "prefix": "fluent-text-field",
+    "body": ["<TextField label=\"I'm a TextField\"  />"],
+    "description": "Basic TextField"
+  },
+
+  "DefaultButton": {
+    "prefix": "fluent-button-default",
+    "body": ["<DefaultButton text=\"I'm a button\" />"],
+    "description": "Default Button"
+  },
+
+  "DetailsList": {
+    "prefix": "fluent-detail-list",
+    "body": [
+    "<DetailsList",
+        "items={items}",
+        "columns={Columns}",
+        "selectionMode={SelectionMode.none}",
+        "layoutMode={DetailsListLayoutMode.justified}",
+    "/>"
+    ],
+    "description": "Simple DetailsList"
+  },
+
+  "Label": {
+    "prefix": "fluent-label",
+    "body": [   "<Label>I'm a Label</Label>"  ],
+    "description": "Simple DetailsList"
+  },
+
+  "Dropdown": {
+    "prefix": "fluent-dropdown",
+    "body": [
+    "<Dropdown",
+        "label=\"I'm a Dropdown\"",
+        "placeholder=\"Hello World\"",
+        "options={_OPTIONS}",
+     "/>"
+    ],
+    "description": "Simple Dropdown"
+  },
+  
+  "DatePicker": {
+    "prefix": "fluent-date-picker",
+    "body": [
+  "<DatePicker",
+      "className={yourClass.styles}",
+      "placeholder=\"Select a date...\"",
+      "ariaLabel=\"Select a date\"",
+  "/>"
+    ],
+    "description": "Simple DatePicker"
+  }
+}

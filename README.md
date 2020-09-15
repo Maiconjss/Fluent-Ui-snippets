@@ -1,1 +1,1 @@
-# Fluent-Ui-snippets
+# Fluent-UI-Snippets
