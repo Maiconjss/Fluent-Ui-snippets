@@ -2,7 +2,11 @@
     "name": "fluent-ui-snippets",
     "displayName": "Fluent UI Snippets",
     "icon": "images/logo.png",
-    "description": "",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/Maiconjss/Fluent-Ui-snippets"
+	},
+    "description": "A set of Snippets for Fluent UI",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.49.0"
