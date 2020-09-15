@@ -15,10 +15,10 @@
     "prefix": "fluent-detail-list",
     "body": [
     "<DetailsList",
-        "items={items}",
-        "columns={Columns}",
-        "selectionMode={SelectionMode.none}",
-        "layoutMode={DetailsListLayoutMode.justified}",
+        "\titems={items}",
+        "\tcolumns={Columns}",
+        "\tselectionMode={SelectionMode.none}",
+        "\tlayoutMode={DetailsListLayoutMode.justified}",
     "/>"
     ],
     "description": "Simple DetailsList"
@@ -34,9 +34,9 @@
     "prefix": "fluent-dropdown",
     "body": [
     "<Dropdown",
-        "label=\"I'm a Dropdown\"",
-        "placeholder=\"Hello World\"",
-        "options={_OPTIONS}",
+        "\tlabel=\"I'm a Dropdown\"",
+        "\tplaceholder=\"Hello World\"",
+        "\toptions={_OPTIONS}",
      "/>"
     ],
     "description": "Simple Dropdown"
@@ -46,9 +46,9 @@
     "prefix": "fluent-date-picker",
     "body": [
   "<DatePicker",
-      "className={yourClass.styles}",
-      "placeholder=\"Select a date...\"",
-      "ariaLabel=\"Select a date\"",
+      "\tclassName={yourClass.styles}",
+      "\tplaceholder=\"Select a date...\"",
+      "\tariaLabel=\"Select a date\"",
   "/>"
     ],
     "description": "Simple DatePicker"

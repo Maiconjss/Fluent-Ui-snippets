@@ -1,6 +1,7 @@
-{
+{   "publisher": "Maicon",
     "name": "fluent-ui-snippets",
     "displayName": "Fluent UI Snippets",
+    "icon": "images/logo.png",
     "description": "",
     "version": "0.0.1",
     "engines": {
