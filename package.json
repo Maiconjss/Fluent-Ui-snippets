@@ -1,0 +1,43 @@
+{
+	"publisher": "Maicon",
+	"name": "fluent-ui-snippets",
+	"displayName": "Fluent UI Snippets",
+	"icon": "images/logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Maiconjss/Fluent-Ui-snippets"
+	},
+	"description": "A set of Snippets for Fluent UI",
+	"version": "0.0.2",
+	"engines": {
+		"vscode": "^1.49.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "65f5f92f-b5e1-4d65-a5da-a55d51e40031",
+		"publisherId": "52cd300c-b8cd-4d93-8aa2-242c2125ad22",
+		"publisherDisplayName": "Maicon"
+	}
+}
