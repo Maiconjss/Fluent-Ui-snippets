@@ -1,6 +1,6 @@
 # fluent-ui-snippets 
 
-Dev Release
+Working a new Version, available in next month.
 
 
 
