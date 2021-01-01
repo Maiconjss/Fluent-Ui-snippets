@@ -1,56 +1,50 @@
 {
+
+  "import-ui-fabric": {
+    "prefix":"imo",
+    "body": ["import {} from 'office-ui-fabric-react';"],
+    "description":"import office-ui-fabric-react"
+  },
+
+  "Checkbox": {
+    "prefix":"fluent-checkbox",
+    "body": ["<Checkbox label=\"I'm a Checkbox\" />"],
+    "description":"Basic Checkbox"
+  },
+
+  "SearchBox": {
+    "prefix":"fluent-searchbox",
+    "body": ["<SearchBox placeholder=\"I'm a SearchBox\" />"],
+    "description":"Basic SearchBox"
+  },
+
   "TextField": {
-    "prefix": "fluent-text-field",
-    "body": ["<TextField label=\"I'm a TextField\"  />"],
-    "description": "Basic TextField"
+    "prefix":"fluent-text-field",
+    "body": ["<TextField label=\"I'm a TextField\" />"],
+    "description":"Basic TextField"
   },
 
   "DefaultButton": {
-    "prefix": "fluent-button-default",
-    "body": ["<DefaultButton text=\"I'm a button\" />"],
+    "prefix":"fluent-button-default",
+    "body": ["<DefaultButton text=\"I'm a button\" onClick={()=> alert(\"hello!\")}/>"],
     "description": "Default Button"
   },
 
-  "DetailsList": {
-    "prefix": "fluent-detail-list",
-    "body": [
-    "<DetailsList",
-        "\titems={items}",
-        "\tcolumns={Columns}",
-        "\tselectionMode={SelectionMode.none}",
-        "\tlayoutMode={DetailsListLayoutMode.justified}",
-    "/>"
-    ],
-    "description": "Simple DetailsList"
-  },
-
   "Label": {
-    "prefix": "fluent-label",
-    "body": [   "<Label>I'm a Label</Label>"  ],
-    "description": "Simple DetailsList"
+    "prefix":"fluent-label",
+    "body": ["<Label>I'm a Label</Label>"],
+    "description":"Basic Label"
   },
 
-  "Dropdown": {
-    "prefix": "fluent-dropdown",
-    "body": [
-    "<Dropdown",
-        "\tlabel=\"I'm a Dropdown\"",
-        "\tplaceholder=\"Hello World\"",
-        "\toptions={_OPTIONS}",
-     "/>"
-    ],
-    "description": "Simple Dropdown"
-  },
-  
   "DatePicker": {
     "prefix": "fluent-date-picker",
     "body": [
   "<DatePicker",
       "\tclassName={yourClass.styles}",
       "\tplaceholder=\"Select a date...\"",
-      "\tariaLabel=\"Select a date\"",
+      "\tlabel=\"I'm a DatePicker\"",
   "/>"
     ],
-    "description": "Simple DatePicker"
+    "description":"Basic DatePicker"
   }
 }
