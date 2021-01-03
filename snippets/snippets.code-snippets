@@ -40,7 +40,6 @@
     "prefix": "fluent-date-picker",
     "body": [
   "<DatePicker",
-      "\tclassName={yourClass.styles}",
       "\tplaceholder=\"Select a date...\"",
       "\tlabel=\"I'm a DatePicker\"",
   "/>"
