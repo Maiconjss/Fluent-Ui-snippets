@@ -5,6 +5,11 @@
     "body": ["import {} from 'office-ui-fabric-react';"],
     "description":"import office-ui-fabric-react"
   },
+  "import-fluent-ui": {
+    "prefix":"imf",
+    "body": ["import {} from '@fluentui/react';"],
+    "description":"import @fluentui/react"
+  },
 
   "Checkbox": {
     "prefix":"fluent-checkbox",
@@ -45,5 +50,17 @@
   "/>"
     ],
     "description":"Basic DatePicker"
+  },
+
+  "Toggle": {
+    "prefix": "fluent-toggle",
+    "body": ["<Toggle label=\"I'm a Toggle\" onText=\"On\" offText=\"Off\" />"],
+    "description":"Basic Toggle"
+  },
+
+  "Spinner": {
+    "prefix": "fluent-spinner",
+    "body": ["<Spinner label=\"I am Spinner\" />"],
+    "description":"Basic Spinner"
   }
 }
