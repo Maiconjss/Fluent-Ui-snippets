@@ -8,7 +8,7 @@ imo | import {} from 'office-ui-fabric-react';
 #
 
 Snippet | Description
---- | --- | ---
+--- | --- | 
 fluent-text-field | TextField 
 fluent-button-default | Default Button
 fluent-label | Label
